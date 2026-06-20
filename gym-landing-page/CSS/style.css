@@ -1,0 +1,598 @@
+.clear {
+  clear: both;
+}
+
+/* ---------------- GLOBAL ---------------- */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* container */
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* ---------------- FLOAT SYSTEM ---------------- */
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* ---------------- HERO ---------------- */
+
+.hero {
+  height: 100vh;
+  background: #f9fafb;
+}
+
+.hero .container {
+  margin-top: 120px;
+}
+
+.hero_content {
+  width: 50%;
+  float: left;
+}
+
+.hero_image {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+.hero_image img {
+  width: 65%;
+  border-radius: 20px;
+}
+
+/* text */
+
+.hero_content h1 {
+  font-size: 65px;
+  margin-bottom: 15px;
+}
+
+.hero_content p {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+/* buttons */
+
+.btnh1,
+.btnh2 {
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.btnh1 {
+  padding: 16px 32px;
+  background: black;
+  color: white;
+  margin-right: 15px;
+}
+
+.btnh2 {
+  padding: 16px 32px;
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+/* ---------------- TITLE ---------------- */
+
+.title {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.title h2 {
+  font-size: 36px;
+}
+
+.title p {
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+}
+
+/* ---------------- WHY CHOOSE US ---------------- */
+
+.why-choose-us {
+  padding: 80px 0;
+}
+
+/* ---------------- BENEFITS CARDS ---------------- */
+
+.benefits-cards {
+  overflow: hidden;
+  margin-bottom: 65px;
+  position: relative;
+}
+
+.card {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+/* card padding */
+
+.benefits-cards .card {
+  padding-bottom: 30px;
+  border-radius: 12px;
+}
+
+.benefits-cards .card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  padding: 0 20px;
+}
+
+.benefits-cards .card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+/* shapes */
+
+.shape {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.inner-shape1 {
+  width: 32px;
+  height: 32px;
+  margin: 16px auto;
+  border-radius: 6px;
+  background: white;
+  position: relative;
+  top: 16px;
+}
+
+.inner-shape2 {
+  width: 32px;
+  height: 32px;
+  margin: 16px auto;
+  border-radius: 16px;
+  background: white;
+  position: relative;
+  top: 16px;
+}
+
+/* colors */
+
+.bg-cs1 {
+  background: blue;
+}
+.bg-cs2 {
+  background: green;
+}
+.bg-cs3 {
+  background: purple;
+}
+
+.card-bg-c1 {
+  background: rgb(173, 216, 230);
+}
+.card-bg-c2 {
+  background: rgb(144, 252, 144);
+}
+.card-bg-c3 {
+  background: rgb(255, 187, 255);
+}
+
+/* ---------------- MORE BENEFITS ---------------- */
+
+.more-benefits {
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.more-benefits .imge {
+  float: left;
+  width: 45%;
+}
+
+.more-benefits .imge img {
+  width: 100%;
+  margin-top: 120px;
+  border-radius: 15px;
+}
+
+.more-benefits .content {
+  float: right;
+  width: 45%;
+}
+
+.more-benefits .content h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.line-shap {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-left: 4px solid black;
+  /* background: #f9fafb; */
+  border-radius: 0 8px 8px 0;
+}
+
+.line-shap h4 {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.line-shap p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ---------------- TESTIMONIALS ---------------- */
+
+.testmonials {
+  background: #f9fafb;
+  padding: 80px 0;
+}
+
+.testmonials .title h2 {
+  font-size: 36px;
+}
+
+.testmonials .title p {
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+}
+
+/* reviews row */
+
+.reviews {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.reviews .card {
+  border: 1px solid #e5e5e5;
+  width: 28%;
+  height: 280px;
+  border-radius: 12px;
+  padding: 28px;
+  text-align: left;
+}
+
+/* avatar */
+
+.author-img {
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.author-img img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 12px;
+}
+
+.card-header h4 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.card-header p,
+.author-img p {
+  font-size: 13px;
+  color: gray;
+  margin-top: 2px;
+}
+
+.author-info {
+  clear: both;
+  margin-top: 16px;
+}
+
+.author-info p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+/* statistics */
+
+.statistics {
+  overflow: hidden;
+  text-align: center;
+  background: #f0f4f8;
+  border-radius: 14px;
+  border-color: lightblue;
+  padding-bottom: 20px;
+}
+
+.statistics .num {
+  float: left;
+  width: 25%;
+}
+
+.statistics .num h4 {
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.statistics .num p {
+  font-size: 15px;
+  color: #aaa;
+}
+
+/* ---------------- MEMBERSHIP FORM ---------------- */
+
+.Membership-Form {
+  padding: 80px 0;
+}
+
+.Membership-Form .title h2 {
+  font-size: 36px;
+}
+
+.Membership-Form .title p {
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.Membership-Form form {
+  width: 60%;
+  margin: 0 auto;
+  background: #f9fafb;
+  padding: 40px;
+  border-radius: 14px;
+  border: 1px solid #e5e5e5;
+}
+
+/* form rows */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.nameline {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.fname-box {
+  float: left;
+  width: 47%;
+}
+
+.lname-box {
+  float: right;
+  width: 45%;
+}
+
+.email,
+.phone,
+.membership,
+.fitness-goals {
+  margin-bottom: 20px;
+}
+
+/* labels */
+
+.Membership-Form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+/* inputs */
+
+.Membership-Form input,
+.Membership-Form select,
+.Membership-Form textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+  background: white;
+  color: #1e1f2e;
+}
+
+.Membership-Form textarea {
+  height: 110px;
+  resize: vertical;
+}
+
+/* submit button */
+
+.Membership-Form button {
+  width: 100%;
+  padding: 16px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-bottom: 14px;
+  margin-top: 6px;
+}
+
+.Membership-Form > .container > form > p {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+.footer {
+  background: #111;
+  padding: 60px 0 0 0;
+  color: #ccc;
+}
+
+.footer .content {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+/* columns */
+
+.footer-info {
+  float: left;
+  width: 38%;
+  margin-right: 6%;
+}
+
+.footer-links {
+  float: left;
+  width: 18%;
+  margin-right: 6%;
+}
+
+.contact-info {
+  float: left;
+  width: 28%;
+}
+
+/* footer headings */
+
+.footer-info h3,
+.footer-links h3,
+.contact-info h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+/* footer-info */
+
+.footer-info p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.footer-info li {
+  overflow: hidden;
+}
+
+.footer-info li a {
+  float: left;
+  margin-right: 14px;
+  font-size: 14px;
+  color: #aaa;
+  padding: 6px 14px;
+  text-decoration: none;
+}
+
+/* footer links */
+
+.footer-links li {
+  overflow: hidden;
+}
+
+.footer-links li a {
+  display: block;
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer-links li a ul {
+  display: block;
+}
+
+/* contact info */
+
+.contact-info h4 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-top: 14px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* hr */
+
+.footer hr {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin-bottom: 24px;
+}
+
+/* copyright */
+
+.footer .copyright {
+  overflow: hidden;
+  padding-bottom: 24px;
+}
+
+.copyright .leftp {
+  float: left;
+}
+
+.copyright .leftp p {
+  font-size: 13px;
+  color: #666;
+}
+
+.copyright .rightp {
+  float: right;
+}
+
+.copyright .rightp li {
+  overflow: hidden;
+}
+
+.copyright .rightp li a {
+  float: left;
+  font-size: 13px;
+  color: #666;
+  margin-left: 20px;
+  text-decoration: none;
+}
