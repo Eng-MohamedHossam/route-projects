@@ -35,6 +35,7 @@ A product landing page showcasing drones with a focus on visuals, marketing layo
 
 - HTML5
 - CSS3
+- JavaScript 
 - Responsive Design (Flexbox / Grid)
 
 ---
