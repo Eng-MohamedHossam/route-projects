@@ -29,6 +29,9 @@ A UI dashboard displaying financial data with clean layout structure and modern 
 ### 3. 🚁 Drone Landing Page
 A product landing page showcasing drones with a focus on visuals, marketing layout, and responsiveness.
 
+### 4. 🍽️ What's For Dinner
+A recipe discovery website that generates random meals from a curated collection of recipes. Users can explore different cuisines, view recipe details, and get inspired with a new dish every time they visit.
+
 ---
 
 ## 🛠️ Technologies Used
