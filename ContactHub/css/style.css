@@ -1,0 +1,145 @@
+.bg-purple {
+    background-color: #7728FD;
+}
+
+.bg-main {
+    background-color: #EDE9FE;
+}
+
+.text-purple {
+    color: #7F22FE;
+}
+
+.bg-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+/* ========== general ========== */
+
+/* ========== navbar ==========*/
+nav img {
+    width: 40px;
+}
+
+nav .navicon:hover i {
+    color: #364153 !important;
+}
+
+nav .navicon:hover {
+    color: #364153 !important;
+    background-color: #e5e9f0;
+    background-position: center;
+    padding: 8px;
+    border-radius: 10px;
+    margin-inline: -8px;
+    cursor: pointer;
+}
+
+nav button {
+    transition: all 0.2s;
+}
+
+nav button.add-btn:hover {
+    box-shadow: 0px 7px 10px #DCC9FF;
+    transform: translateY(-1px);
+}
+
+nav .modal-body div {
+    width: 90px;
+    height: 90px;
+}
+
+nav .modal-body textarea {
+    resize: none;
+    height: 70px;
+}
+
+nav .modal {
+    backdrop-filter: blur(5px);
+}
+
+/* ========== navbar ==========*/
+
+/* ========== header ========== */
+input:focus-visible {
+    outline: none;
+}
+
+header input:focus {
+    border-color: transparent !important;
+    outline: 1px solid #7F22FE;
+    box-shadow: 0px 0px 5px #7F22FE;
+}
+
+header i.fa-search {
+    left: 25px;
+    pointer-events: none;
+}
+
+header .contact-card img {
+    width: 60px;
+}
+
+header .contact-card .footer-buttons i {
+    width: 40px;
+    padding: 12px;
+    transition: all 0.2s;
+}
+
+header .contact-card i.fa-trash:hover {
+    background-color: #FFF1F2;
+    color: red !important;
+    border-radius: 8px;
+}
+
+header .contact-card i.fa-pen:hover {
+    background-color: #EEF2FF;
+    color: #4F39F6 !important;
+    border-radius: 8px;
+}
+
+header .contact-card i.fa-heart:hover {
+    background-color: #F8FAFC;
+    color: red !important;
+    border-radius: 8px;
+}
+
+header .contact-card i.fa-star:hover {
+    background-color: #F8FAFC;
+    color: #FFB900 !important;
+    border-radius: 8px;
+}
+
+header .contact-lists p,
+header .contact-lists .contact-info span {
+    font-size: 11px;
+}
+
+header .contact-lists img {
+    width: 40px;
+}
+
+header .contact-lists .contact {
+    background-color: #F7FAFC;
+}
+
+header .contact-lists .contact-bg {
+    width: 35px;
+    height: 35px;
+}
+
+header .contact-lists .call-bg {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+
+header #delete-fav i {
+    background-color: #FFEBEC !important;
+    border-radius: 8px;
+}
