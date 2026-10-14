@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+body {
+  background: #151617;
+  font-family: "Cairo", sans-serif;
+}
+.main-color {
+  background: #eb5c0c;
+}
+.main-text-color {
+  color: #ff6900;
+}
+
+::selection {
+  background: #f97315;
+  color: white;
+}
